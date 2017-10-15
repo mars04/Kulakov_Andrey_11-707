@@ -10,6 +10,12 @@ namespace Part_2_2
     {
         static void Main(string[] args)
         {
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int k = int.Parse(Console.ReadLine());
+            k = a + (b - a) * (k - 1);
+            Console.WriteLine(k);
+            Console.ReadLine();
         }
     }
 }
